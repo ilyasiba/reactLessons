@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import Home from './home/Home';
+import Main from './common/Main';
+import Contact from './common/Contact';
+import Footer from './common/Footer';
 
-class App extends Component {
-  render() {
-    return (
-      <Home />
-    );
-  }
-}
+const App = () => <div>
+  <Main />
+  <Contact />
+  <Footer />
+</div>
 
 export default App;
