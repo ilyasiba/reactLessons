@@ -1,17 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Info from './Info';
 import Service from './services/Service';
 
-class Home extends Component {
-  render() {
-    return (
-      <div>
-        <Info />
-        <Service />
-      </div>
-    );
-  }
-}
+const Home = () => <div>
+  <Info />
+  <Service />
+</div>
+
 
 export default Home;
